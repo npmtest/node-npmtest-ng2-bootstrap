@@ -1,7 +1,10 @@
-# test coverage for  [ng2-bootstrap (v1.6.3)](https://github.com/valor-software/ngx-bootstrap#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ng2-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ng2-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ng2-bootstrap.svg)](https://travis-ci.org/npmtest/node-npmtest-ng2-bootstrap)
+# npmtest-ng2-bootstrap
+
+#### test coverage for  [ng2-bootstrap (v1.6.3)](https://github.com/valor-software/ngx-bootstrap#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ng2-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ng2-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ng2-bootstrap.svg)](https://travis-ci.org/npmtest/node-npmtest-ng2-bootstrap)
+
 #### Native Angular Bootstrap Components
 
-[![NPM](https://nodei.co/npm/ng2-bootstrap.png?downloads=true)](https://www.npmjs.com/package/ng2-bootstrap)
+[![NPM](https://nodei.co/npm/ng2-bootstrap.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ng2-bootstrap)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-ng2-bootstrap/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ng2-bootstrap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ng2-bootstrap/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-ng2-bootstrap%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-ng2-bootstrap/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-ng2-bootstrap%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ng2-bootstrap/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/test-report.html](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-ng2-bootstrap/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-ng2-bootstrap/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-ng2-bootstrap/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-ng2-bootstrap/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/screenCapture.npmPackageListing.svg)
 
@@ -27,8 +36,7 @@
 
 {
     "author": {
-        "name": "Dmitriy Shekhovtsov",
-        "email": "valorkin@gmail.com"
+        "name": "Dmitriy Shekhovtsov"
     },
     "bugs": {
         "url": "https://github.com/valor-software/ngx-bootstrap/issues"
@@ -56,8 +64,7 @@
     "main": "bundles/ngx-bootstrap.umd.js",
     "maintainers": [
         {
-            "name": "valorkin",
-            "email": "valorkin@gmail.com"
+            "name": "valorkin"
         }
     ],
     "module": "index.js",
@@ -69,7 +76,6 @@
         "@angular/core": "^2.3.1 || >=4.0.0",
         "@angular/forms": "^2.3.1 || >=4.0.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/valor-software/ngx-bootstrap.git"
