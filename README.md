@@ -1,6 +1,6 @@
 # npmtest-ng2-bootstrap
 
-#### test coverage for  [ng2-bootstrap (v1.6.3)](https://github.com/valor-software/ngx-bootstrap#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ng2-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ng2-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ng2-bootstrap.svg)](https://travis-ci.org/npmtest/node-npmtest-ng2-bootstrap)
+#### basic test coverage for  [ng2-bootstrap (v1.6.3)](https://github.com/valor-software/ngx-bootstrap#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ng2-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ng2-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ng2-bootstrap.svg)](https://travis-ci.org/npmtest/node-npmtest-ng2-bootstrap)
 
 #### Native Angular Bootstrap Components
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ng2-bootstrap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ng2-bootstrap/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ng2-bootstrap/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ng2-bootstrap/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ng2-bootstrap/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ng2-bootstrap/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
     },
     "scripts": {},
     "typings": "index.d.ts",
-    "version": "1.6.3"
+    "version": "1.6.3",
+    "bin": {}
 }
 ```
 
